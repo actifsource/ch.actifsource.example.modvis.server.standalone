@@ -48,6 +48,7 @@ public class ErrorHandler extends BaseErrorHandler {
 	 /**
    * Open a exception dialog.
    */
+	@Override
   public boolean openExceptionDialog(Throwable t, final IDialogContent message) {
     return true;
   }
@@ -55,6 +56,7 @@ public class ErrorHandler extends BaseErrorHandler {
    /**
    * Open a message dialog.
    */
+	@Override
   public boolean openMessageDialog(final IDialogContent message, final MessageType messageType) {
     return true;
   }
@@ -62,6 +64,7 @@ public class ErrorHandler extends BaseErrorHandler {
 	/**
 	 * dispose
 	 */
+	@Override
 	public void dispose() {
 		
 	}
