@@ -1,0 +1,42 @@
+<div id="record-controls" class="navbar" ng-hide="hideRecordControl">
+	<div class="inner">
+	    <ul class="nav">
+	      <li>
+	        <button class="btn" ng-click="fastPrevious()" ng-disabled="!previousEnabled"><i class="icon-fast-backward"></i></button>
+	      </li>
+	      <li>
+	        <button class="btn" ng-click="previous()" ng-disabled="!previousEnabled"><i class="icon-backward"></i></button>
+	      </li>
+	      <li>
+	        <button class="btn" ng-click="play()" ng-disabled="!playEnabled"><i class="icon-play"></i></button>
+	      </li>
+	      <li>
+	        <button class="btn" ng-click="pause()" ng-disabled="!pausedEnabled"><i class="icon-pause"></i></button>
+	      </li>
+	      <li>
+	        <button class="btn" ng-click="next()" ng-disabled="!nextEnabled"><i class="icon-forward"></i></button>
+	      </li>
+	      <li>
+	        <button class="btn" ng-click="fastNext()" ng-disabled="!nextEnabled"><i class="icon-fast-forward"></i></button>
+	      </li>
+	      </li>
+	      <li>
+	        <div class="label" ng-show="enableShowRecordFile && playEnabled">
+	          File: {{currentRecordFile}}
+	        </div>
+	        <div class="label">
+	          <i class="icon-time" title="Serverzeit"></i> : {{diagram.currentTime}}
+	        </div>
+	        <div class="label">
+	          <i class="icon-tasks" title="Sequenznummer"></i> : {{diagram.currentSeq}}
+	        </div>
+	      </li>
+	    </ul>
+  	</div>
+  	<div style="width:280px;" ng-show="playEnabled && enableTimeSliderControl">
+    	<rzslider 	rz-slider-tpl-url="partials/rzSliderTpl.html" 
+    				rz-slider-model="timeSlider.value"
+    				rz-slider-options="timeSliderOptions">
+    	</rzslider>
+	</div>
+</div>

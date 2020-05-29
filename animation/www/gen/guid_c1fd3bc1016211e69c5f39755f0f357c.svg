@@ -1,0 +1,418 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="763" height="559"
+	viewBox="0 0 763 559" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	
+	
+	
+	
+	
+	
+	
+</defs>
+	<g id="guid_d137e72c51a911e1bd13c3c3662741af">	
+		<g transform="translate(139,420) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="4" ry="4"
+			  	fill="rgb(255, 222, 173)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_d137e72c51a911e1bd13c3c3662741af">	
+		<g transform="translate(166,427) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-12" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-12" dy="0">off_</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_d25fec7e51a911e1bd13c3c3662741af">	
+		<g transform="translate(355,429) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-40" y="-40" 
+				width="79" height="79"
+			        fill="rgb(252, 237, 209)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-27" y1="-39" 
+				x2="-27" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-25" 
+				x2="39" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-10" 
+				x2="39" y2="-10" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="5" 
+				x2="39" y2="5" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)">
+			    	<tspan x="-39" dy="0">1</tspan>
+			</text>
+			
+			<!-- DrawTextSelector_ContextModel -->
+			<text x="-22" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Ext
+			</text>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-13" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-39" dy="0">on</tspan>
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="0" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Outpulse
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="15" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)" >
+			    	Bright
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_de4ce63651a911e1bd13c3c3662741af">	
+		<g transform="translate(546,428) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_de4ce63651a911e1bd13c3c3662741af">	
+		<g transform="translate(573,435) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-12" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-12" dy="0">on_</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_f42fed7f51a911e1bd13c3c3662741af">	
+		<g transform="translate(633,246) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-40" y="-40" 
+				width="79" height="79"
+			        fill="rgb(252, 237, 209)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-27" y1="-39" 
+				x2="-27" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-25" 
+				x2="39" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-10" 
+				x2="39" y2="-10" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="5" 
+				x2="39" y2="5" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)">
+			    	<tspan x="-39" dy="0">2</tspan>
+			</text>
+			
+			<!-- DrawTextSelector_ContextModel -->
+			<text x="-22" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)" >
+			    	T
+			</text>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-13" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-39" dy="0">off</tspan>
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="0" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Outpulse
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="15" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Message
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_df4242c851a911e1bd13c3c3662741af">	
+		<g transform="translate(525,77) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_df4242c851a911e1bd13c3c3662741af">	
+		<g transform="translate(563,84) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-23" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-23" dy="0">delayed</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_124a3a4551aa11e1bd13c3c3662741af">	
+		<g transform="translate(494,254) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-40" y="-40" 
+				width="79" height="79"
+			        fill="rgb(252, 237, 209)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-27" y1="-39" 
+				x2="-27" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-25" 
+				x2="39" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-10" 
+				x2="39" y2="-10" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="5" 
+				x2="39" y2="5" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)">
+			    	<tspan x="-39" dy="0">3</tspan>
+			</text>
+			
+			<!-- DrawTextSelector_ContextModel -->
+			<text x="-22" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)" >
+			    	T
+			</text>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-13" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-39" dy="0">on</tspan>
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="0" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Outpulse
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="15" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Message
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_247eb86251aa11e1bd13c3c3662741af">	
+		<g transform="translate(136,90) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-40" y="-40" 
+				width="79" height="79"
+			        fill="rgb(252, 237, 209)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-27" y1="-39" 
+				x2="-27" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-25" 
+				x2="39" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-10" 
+				x2="39" y2="-10" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="5" 
+				x2="39" y2="5" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)">
+			    	<tspan x="-39" dy="0">4</tspan>
+			</text>
+			
+			<!-- DrawTextSelector_ContextModel -->
+			<text x="-22" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Ext
+			</text>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-13" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-39" dy="0">TIMEUP_</tspan>
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="0" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Outpulse
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="15" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)" >
+			    	Dark
+			</text>
+			
+		</g>
+	</g>
+	<!-- Relations 4 TIMEUP_ -> off_ -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 136 130 L 136 130L 138 404 L 138 404"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="133,399 138,404 143,399 "/>
+	</g>
+	<!-- Relations off_ -> 1 on -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 154 419 L 153 419L 314 427 L 314 427"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="309,432 314,427 309,422 "/>
+	</g>
+	<!-- Relations 1 on -> on_ -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 395 428 L 395 428L 530 427 L 530 427"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="525,432 530,427 525,422 "/>
+	</g>
+	<!-- Relations 3 on -> on_ -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 506 294 L 506 294L 541 413 L 541 413"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="535,410 541,413 544,407 "/>
+	</g>
+	<!-- Relations on_ -> 2 off -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 551 413 L 551 414L 613 286 L 613 286"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="615,293 613,286 606,288 "/>
+	</g>
+	<!-- Relations 2 off -> delayed -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 607 205 L 607 205L 532 89 L 532 89"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="539,90 532,89 531,96 "/>
+	</g>
+	<!-- Relations delayed -> 3 on -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 522 91 L 522 91L 501 213 L 501 213"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="497,207 501,213 507,209 "/>
+	</g>
+	<!-- Relations delayed -> 4 TIMEUP_ -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 509 76 L 509 76L 176 88 L 176 88"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="181,83 176,88 181,93 "/>
+	</g>
+</svg>
+
+<!-- Actifsource ID=[ce6aa3dc-6055-11e5-8054-39eee81289f5,532ad8c4-0307-11e6-b47b-f140d082a724,c1fd3bc1-0162-11e6-9c5f-39755f0f357c,Hash] -->

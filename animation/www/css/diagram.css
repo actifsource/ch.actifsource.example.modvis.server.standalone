@@ -1,0 +1,50 @@
+/**
+* DefaultStatic 
+* move from current 2s color to green 
+*/
+
+.appearance0 ellipse:first-child, .appearance0 rect:first-child{ /* end */
+}
+
+  
+
+
+/**
+* SkyBlueState 
+* move from current 2s color to green 
+*/
+
+.appearance1 ellipse:first-child, .appearance1 rect:first-child{ /* end */
+	fill: rgb(135,206,235);
+}
+
+  
+
+.appearance1 polyline:first-child, .appearance1 path:first-child{
+	fill="none";
+	stroke: rgb(135,206,235);
+} 
+
+.appearance1 polygon:first-child{
+	fill: rgb(135,206,235);
+} 
+/**
+* LightGrayState 
+* move from current 2s color to green 
+*/
+
+.appearance2 ellipse:first-child, .appearance2 rect:first-child{ /* end */
+	fill: rgb(211,211,211);
+}
+
+  
+
+.appearance2 polyline:first-child, .appearance2 path:first-child{
+	fill="none";
+	stroke: rgb(211,211,211);
+} 
+
+.appearance2 polygon:first-child{
+	fill: rgb(211,211,211);
+} 
+/* Actifsource ID=[4066091f-605a-11e5-8054-39eee81289f5,532ad8c4-0307-11e6-b47b-f140d082a724,Hash] */

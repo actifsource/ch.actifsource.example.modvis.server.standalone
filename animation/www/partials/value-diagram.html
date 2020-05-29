@@ -1,0 +1,61 @@
+
+<bg-splitter orientation="horizontal" splitter-id=3>
+  	
+  	<!-- Main Container -->
+  	<bg-pane min-size="100">
+    	<div class="modvis-main">
+     		
+     		<div class="body">
+	     		<dl class="reflist">
+	     			<div ng-repeat="value in values">
+		     			<div ng-switch="value.enabled">
+			     			<div ng-switch-when="true" class="explorerNodeStyle{{node.st}}">
+			     				<dt>
+						    		{{value.label}}: ({{value.description}})
+						    	</dt>
+						    	<dd>
+						    		Value: {{value.currentValue}} [{{value.unit}}]
+						    	</dd>
+						    </div>
+				    		<div ng-switch-default></div>
+				    	</div>
+	     			</div>
+	     		</dl>
+     		</div>
+			     
+		</div>     
+    </bg-pane> 	
+    
+    <!-- Value Navigation Container -->
+    <bg-pane min-size="150" max-size="500" init-Size-Right="600" change-Listener-Right=true class="pane-container">	
+    	<div class="diagramNavigation">
+    
+		    <div class="body">
+				<dl class="reflist">
+					<div ng-repeat="value in values">
+			    		<dt>
+			    			<label><input type="checkbox" id="{{value.id}}" ng-click="updateSelection($event, value)"> {{value.label}}</label>
+			    		</dt>
+			        	<dd>
+			        		{{value.description}}
+			        	<br>
+			        	    <div ng-switch="value.enabled">
+					    		<div ng-switch-when="false" class="explorerNodeStyle{{node.st}}">
+					    			Cycletime: <input type="text" onkeypress='return ((event.charCode >= 48 && event.charCode <= 57) 
+					    						|| event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 37 || event.keyCode == 39 || event.keyCode == 127)'
+					    						style="width: 40px" value="{{value.cycletime}}" ng-disabled="{{value.enabled}}" ng-model="value.cycletime"> [ms]
+					    		</div>
+					    		<div ng-switch-default>
+					        		Cycletime: {{value.cycletime}} [ms]
+					    		</div>
+					    	</div>
+			        	</dd>
+					</div>     
+				</dl>
+			</div>
+	
+		</div>
+    </bg-pane>
+    
+</bg-splitter>
+       

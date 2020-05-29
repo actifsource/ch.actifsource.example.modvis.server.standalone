@@ -1,0 +1,229 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="666" height="422"
+	viewBox="0 0 666 422" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	
+	
+	
+	
+</defs>
+	<g id="guid_4a45b24b51a911e1bd13c3c3662741af">	
+		<g transform="translate(561,221) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="4" ry="4"
+			  	fill="rgb(255, 222, 173)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_4a45b24b51a911e1bd13c3c3662741af">	
+		<g transform="translate(602,228) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-26" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-26" dy="0">released</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_52ecf7bc51a911e1bd13c3c3662741af">	
+		<g transform="translate(344,292) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-40" y="-40" 
+				width="79" height="79"
+			        fill="rgb(252, 237, 209)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-27" y1="-39" 
+				x2="-27" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-25" 
+				x2="39" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-10" 
+				x2="39" y2="-10" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="20" 
+				x2="39" y2="20" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)">
+			    	<tspan x="-39" dy="0">1</tspan>
+			</text>
+			
+			<!-- DrawTextSelector_ContextModel -->
+			<text x="-22" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Ext
+			</text>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-13" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-39" dy="0">Push</tspan>
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="0" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)" >
+			    	on
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="30" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Message
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_5b43fa5551a911e1bd13c3c3662741af">	
+		<g transform="translate(130,217) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_5b43fa5551a911e1bd13c3c3662741af">	
+		<g transform="translate(168,224) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-23" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-23" dy="0">pushed</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_5c458be551a911e1bd13c3c3662741af">	
+		<g transform="translate(345,149) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-40" y="-40" 
+				width="79" height="79"
+			        fill="rgb(252, 237, 209)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-27" y1="-39" 
+				x2="-27" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-25" 
+				x2="39" y2="-25" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="-10" 
+				x2="39" y2="-10" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawLine_ContextModel -->
+			<line x1="-39" y1="20" 
+				x2="39" y2="20" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(234, 88, 0)">
+			    	<tspan x="-39" dy="0">2</tspan>
+			</text>
+			
+			<!-- DrawTextSelector_ContextModel -->
+			<text x="-22" y="-28" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Ext
+			</text>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-39" y="-13" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-39" dy="0">Release</tspan>
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="0" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)" >
+			    	off
+			</text>
+			
+			<!-- DrawVerticalMultiSelector_ContextModel -->
+			<text x="-37" y="30" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(169, 169, 169)" >
+			    	Message
+			</text>
+			
+		</g>
+	</g>
+	<!-- Relations 2 Release -> released -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 385 162 L 385 162L 546 216 L 546 216"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="540,219 546,216 543,210 "/>
+	</g>
+	<!-- Relations released -> 1 Push -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 546 224 L 546 224L 384 278 L 384 278"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="387,272 384,278 390,281 "/>
+	</g>
+	<!-- Relations 1 Push -> pushed -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 303 277 L 303 277L 143 221 L 143 221"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="149,218 143,221 146,227 "/>
+	</g>
+	<!-- Relations pushed -> 2 Release -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 143 212 L 143 212L 304 161 L 304 161"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="301,167 304,161 298,158 "/>
+	</g>
+</svg>
+
+<!-- Actifsource ID=[ce6aa3dc-6055-11e5-8054-39eee81289f5,532ad8c4-0307-11e6-b47b-f140d082a724,b64b7592-0162-11e6-9c5f-39755f0f357c,Hash] -->

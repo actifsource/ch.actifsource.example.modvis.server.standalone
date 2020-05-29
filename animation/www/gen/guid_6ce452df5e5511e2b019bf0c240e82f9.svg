@@ -1,0 +1,279 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" width="777" height="496"
+	viewBox="0 0 777 496" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+	
+	
+	<symbol id="guid_4c2d37f264fd11e0859e0b5a1f989279_icon">
+	      <image width="16" height="16" xlink:href="data:image/png;base64,
+	        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAOw
+	        wAADsMBx2+oZAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAACFklEQVQ4T62SaV
+	        NSURjH+Rb322RsLmgIiCyXy+LlxlIisjRETY6NhROLGVrY5GCU5tYC0phERqjJTJMtb/o6/+65R4yrvbC
+	        Z7sy5L848v9+zHUW8FQA5sUM/op99iOxfhvgpTh/fNgfhrQP8lh2eNza4XlmkOAWBM99uY/Z7SoLDewIz
+	        9skrkxzDjLDlQLIeQaIWBrdhpgKSOX00idVfRWS/TiG2F8ToR14mEKos+Iod1+vjmG/lcON9DOyaiQqiB
+	        z5ED/yY/jKBhaMZLP0s4OoHj0wwIsJzrSzuNm4hWYvCvmqCdcVABeOk7KbAhBpeCX76YwHBmlsmcL+2In
+	        +YRW5/Gq4NK4GZ4Wd6KiC/UIPH6O4IrtQ9CNRc8L9zygTOzWE41odo5mUD2vCJ4G9TP+/dmXWdF2zH/R+
+	        BV1wTmTQZlvOl2O/xjttZjMV+GBZ10D/uxUChB7qH2pMZKSS4bGOEMod08w4yzZQ0rM5WBp/oMLGdRLIa
+	        l+DeOQ3T80BNtyDCUubETgQ3d+JI7U5Kk+4UXBIzJ6oxBNa9cJVY9OU10N5XUoFbfNMEvteYwlglcGZNJ
+	        Kj/UTf0BR34ZTeulSNwFK3Q5C5SAbdpRrgaRKjih23FCHNJz5iWBmQV9M2LZefVTPesCp4SB3bRAlW2iw
+	        rYtSHYXhhheT5IYJyG260QWDujhFrMrMp0QZm+8Ocl/uvuO+N/AzJKrSn3OLXlAAAAAElFTkSuQmCC"/>
+	</symbol>
+	<symbol id="guid_b8b26f7664fd11e0859e0b5a1f989279_icon">
+	      <image width="16" height="16" xlink:href="data:image/png;base64,
+	        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAAAlwSFlzAAAOw
+	        wAADsMBx2+oZAAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTAw9HKhAAABkUlEQVQ4T6WSy0
+	        sCURTG/SdsXRYTSJAraRNBILXoMVKhZKbRIBIF2rpRqkXCWC16YNEmK7CwqYkaJsPRHkRRtgq0drVLKFy
+	        0/3IupFhZahfO5jv3/L5zzr0qAKr/RNHipfg7uEgG3oM0XKHnrMfPRkUB3HEG1/cZnCXeYF9LlQ9g918Q
+	        v3mFdJ6GcfaufMDY5hNsK0nQ/gRaPRflA0pd7K8vIIoiBEEo6q6Y5ACyLKuj0SgikQiUQp7nEQwGEQgEw
+	        HEcWJaF2+2Gw+EAwzBVnx3mAJIkqbMRU/1xrFZrLBvfAaXO/PUe6cB1OoyxmB0j0UE4TyxkZttRL8xCJ+
+	        idNrRvtBBNN98Ara8e1HQtqEkN0QhgVLZBeAxj72Ebw5KJJEz7HVi+nYP/ahota01E085Q6N/rgZk3os5
+	        bkwc4TwbAp0IIJ7egOCuXu0IG+C69mIiPQ7+oIxo1pYFpl0ZfuBu1bHUewEhmDIl9GDzsgeWAJgnDejOa
+	        V/XQL+jQ6NcSTXGt81ST4gJApQss+AeVQj4Ak7+9MBbsOzUAAAAASUVORK5CYII="/>
+	</symbol>
+</defs>
+	<g id="guid_42f7aa5b938b11e1aa4c35fc1d30fe0c">	
+		<g transform="translate(672,337) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_42f7aa5b938b11e1aa4c35fc1d30fe0c">	
+		<g transform="translate(725,344) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-38" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-38" dy="0">LampActions</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_453c6a6f938b11e1aa4c35fc1d30fe0c">	
+		<g transform="translate(199,360) rotate(0)">
+			<!-- DrawOval_ContextModel -->
+			<ellipse cx="-1" cy="-1" 
+				rx="14" ry="14"
+			  	fill="rgb(252, 237, 209)"
+			  	stroke="rgb(234, 88, 0)"
+			  	stroke-width="1"/>
+			
+		</g>
+	</g>
+	<g id="guid_453c6a6f938b11e1aa4c35fc1d30fe0c">	
+		<g transform="translate(146,347) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-38" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-38" dy="0">ButtonEvents</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_7d63dbf051a711e1ae73dde3f5865c74">	
+		<g transform="translate(469,297) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-108" y="-108" 
+				width="216" height="216"
+			        fill="rgb(255, 222, 173)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawLine_ContextModel -->
+			<line x1="-107" y1="-88" 
+				x2="108" y2="-88" 
+				style="stroke: rgb(234, 88, 0);"/>
+				
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-29" y="-94" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-29" dy="0">LampCluster</tspan>
+			</text>
+			<use x="-45" y="-106"
+			 xlink:href="#guid_4c2d37f264fd11e0859e0b5a1f989279_icon"/>
+			
+		</g>
+	</g>
+	<g id="guid_89eb8fe551a711e1ae73dde3f5865c74">	
+		<g transform="translate(449,250) rotate(0)">
+			<!-- DrawRoundRectangle_ContextModel -->
+			<rect x="-45" y="-15"
+				height="29" width="89"
+			      	rx="15" ry="15"
+			        fill="rgb(252, 237, 209)"
+			        stroke="rgb(234, 88, 0)"
+			        stroke-width="1"/>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-10" y="4" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-10" dy="0">Button</tspan>
+			</text>
+			<use x="-26" y="-8"
+			 xlink:href="#guid_b8b26f7664fd11e0859e0b5a1f989279_icon"/>
+			
+		</g>
+	</g>
+	<g id="guid_03bcc0b051a911e1bd13c3c3662741af">	
+		<g transform="translate(411,265) rotate(90)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-7" y="-7" 
+				width="13" height="13"
+			        fill="rgb(253, 250, 227)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawPolygon_ContextModel -->
+			<g stroke="rgb(234, 88, 0)" 
+				fill="rgb(253, 250, 227)">
+				<polygon points="-6,0 6,-6 6,6 -6,0 "/>
+			</g>
+			
+		</g>
+	</g>
+	<g id="guid_03bcc0b051a911e1bd13c3c3662741af">	
+		<g transform="translate(443,248) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-41" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-41" dy="0">EVENT_PORT</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_8e04257c51a711e1ae73dde3f5865c74">	
+		<g transform="translate(465,328) rotate(0)">
+			<!-- DrawRoundRectangle_ContextModel -->
+			<rect x="-45" y="-15"
+				height="29" width="89"
+			      	rx="15" ry="15"
+			        fill="rgb(252, 237, 209)"
+			        stroke="rgb(234, 88, 0)"
+			        stroke-width="1"/>
+			
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-9" y="4" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-9" dy="0">Lamp</tspan>
+			</text>
+			<use x="-25" y="-8"
+			 xlink:href="#guid_b8b26f7664fd11e0859e0b5a1f989279_icon"/>
+			
+		</g>
+	</g>
+	<g id="guid_bd75eaef51a911e1bd13c3c3662741af">	
+		<g transform="translate(510,324) rotate(0)">
+			<!-- DrawRectangle_ContextModel -->
+			<rect x="-7" y="-7" 
+				width="13" height="13"
+			        fill="rgb(253, 250, 227)" 
+			        stroke="rgb(234, 88, 0)" 
+			        stroke-width="1"/>
+			     
+			<!-- DrawPolygon_ContextModel -->
+			<g stroke="rgb(234, 88, 0)" 
+				fill="rgb(253, 250, 227)">
+				<polygon points="-6,-6 6,0 -6,6 -6,-6 "/>
+			</g>
+			
+		</g>
+	</g>
+	<g id="guid_bd75eaef51a911e1bd13c3c3662741af">	
+		<g transform="translate(459,323) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-44" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-44" dy="0">ACTION_PORT</tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_09028db9740b11e18a21258210a29e7d">	
+		<g transform="translate(361,316) rotate(0)">
+			<!-- DrawPolygon_ContextModel -->
+			<g stroke="rgb(234, 88, 0)" 
+				fill="rgb(252, 237, 209)">
+				<polygon points="-7,0 -4,-6 3,-6 6,0 3,6 -4,6 -7,0 "/>
+			</g>
+			
+		</g>
+	</g>
+	<g id="guid_09028db9740b11e18a21258210a29e7d">	
+		<g transform="translate(371,315) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-3" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-3" dy="0"> </tspan>
+			</text>
+			
+		</g>
+	</g>
+	<g id="guid_e7b68930740a11e18a21258210a29e7d">	
+		<g transform="translate(578,330) rotate(0)">
+			<!-- DrawPolygon_ContextModel -->
+			<g stroke="rgb(234, 88, 0)" 
+				fill="rgb(252, 237, 209)">
+				<polygon points="-7,0 -4,-6 3,-6 6,0 3,6 -4,6 -7,0 "/>
+			</g>
+			
+		</g>
+	</g>
+	<g id="guid_e7b68930740a11e18a21258210a29e7d">	
+		<g transform="translate(567,329) rotate(0)">
+			<!-- DrawSingleSelector_ContextModel -->
+			<text x="-3" y="5" 
+			        font-family="Times New Roman" font-size="13" 
+			        fill="rgb(0, 0, 0)">
+			    	<tspan x="-3" dy="0"> </tspan>
+			</text>
+			
+		</g>
+	</g>
+	<!-- Relations Lamp.ACTION_PORT -&gt; LampActions -> LampActions -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 585 330 L 585 330L 656 336 L 656 336"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="651,339 656,336 651,333 "/>
+	</g>
+	<!-- Relations ButtonEvents -&gt; Button.EVENT_PORT -> ButtonEvents -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 353 318 L 353 318L 212 356 L 213 356"/>
+	</g>
+	<!-- Relations source figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="349,322 353,318 347,316 "/>
+	</g>
+	<!-- Relations ButtonEvents -&gt; Button.EVENT_PORT -> EVENT_PORT -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 368 308 L 368 308L 403 272 L 403 272"/>
+	</g>
+	<!-- Relations target figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="402,278 403,272 397,273 "/>
+	</g>
+	<!-- Relations Lamp.ACTION_PORT -&gt; LampActions -> ACTION_PORT -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+	      <path d="M 570 329 L 570 329L 517 324 L 517 324"/>
+	</g>
+	<!-- Relations source figure -->
+	<g stroke="rgb(234, 88, 0)" fill="none">
+		<polyline points="565,332 570,329 565,326 "/>
+	</g>
+</svg>
+
+<!-- Actifsource ID=[ce6aa3dc-6055-11e5-8054-39eee81289f5,532ad8c4-0307-11e6-b47b-f140d082a724,6ce452df-5e55-11e2-b019-bf0c240e82f9,Hash] -->

@@ -1,0 +1,61 @@
+/**
+* Application specific formats
+*/
+
+#main {
+        display: inline-block;
+        background-color: grey;
+        position: relative;
+      }
+      .menu {
+        border: 1px solid black;
+        background-color: #fb9924;
+        display: none;
+        position: relative;
+      }
+      .menu,
+      .menu li {
+        padding: 0px;
+        margin: 0px;
+      }
+      .menu li {
+        color: white;
+      }
+      .menu > li:hover {
+        background-color: lightblue;
+        color: black;
+      }
+      .menu li {
+        display: none;
+      }
+
+      .menu.svg li.svg ,
+      .menu.svg li.svg li,
+      .menu.rect li.rect ,
+      .menu.circle li.circle li,
+      .menu.circle li.circle {
+        display: block;
+      }
+      /* Support sub menu */
+      .menu li ul {
+        display:none;
+      }
+      .menu li:hover ul {
+        display:inline-block;
+        position: relative;
+        top: 0;
+      }
+
+      li.color {
+        width: 30px;
+        height: 20px;
+      }
+      li.color-1 {
+        background-color: red;
+      }
+      li.color:hover {
+        opacity: 0.5;
+      }
+      li.color-2 {
+        background-color: green;
+      }

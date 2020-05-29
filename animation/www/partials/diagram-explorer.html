@@ -1,0 +1,54 @@
+
+<div ng-switch="node.st">   
+ 	
+ 	<!-- undefined -->
+	<div ng-switch-when="undefined">
+    	<div ng-switch="node.diagramType" class="node">
+    		<div ng-switch-when="undefined" class="explorerNodeStyle">
+    			
+    			<div ng-switch="node.link">   
+					<div ng-switch-when="undefined">
+						<label for="expand_{{node.number}}" ng-bind="node.label"></label>
+					</div>
+					<div ng-switch-default>
+						<label for="expand_{{node.number}}" ng-bind="node.label" ng-click="openLink(node)"></label>
+					</div>
+				</div>
+
+    		</div>
+    		<div ng-switch-default class="explorerNodeStyle">
+        		<a  href="{{hrefLink(node)}}" class="diagram-link">{{node.label}}</a>
+        		<a ng-click="popup(node)" href=""><i class="icon-fullscreen"></i></a>
+    		</div>
+    	</div>	
+	</div>		
+    		
+    <!-- st defined -->	
+    <div ng-switch-default>
+    	<div ng-switch="node.diagramType" class="node">
+    		<div ng-switch-when="undefined" class="explorerNodeStyle{{node.st}}">
+    			
+    			<div ng-switch="node.link">   
+					<div ng-switch-when="undefined">
+						<label for="expand_{{node.number}}" ng-bind="node.label"></label>
+					</div>
+					<div ng-switch-default>
+						<label for="expand_{{node.number}}" ng-bind="node.label" ng-click="openLink(node)"></label>
+					</div>
+				</div>
+				
+    		</div>
+    		<div ng-switch-default class="explorerNodeStyle{{node.st}}">
+        		<a  href="{{hrefLink(node)}}" class="diagram-link">{{node.label}}</a>
+        		<a ng-click="popup(node)" href=""><i class="icon-fullscreen"></i></a>
+    		</div>
+    	</div>	
+    </div>
+</div>
+   
+
+<input type="checkbox" class="hidden" id="expand_{{node.number}}">
+
+<ol ng-switch="node.children != null">
+    <li ng-repeat="node in getChildNodes(node)" ng-include="'partials/diagram-explorer.html'"></li>
+</ol>

@@ -1,0 +1,14 @@
+
+<div id="title" class="navbar">
+  <div class="navbar-inner">
+    <div class="brand">{{diagram.title}}</div>
+  </div>
+</div>
+
+<div class="{{routeChangeState}}" ng-show="routeChangeState">
+	<img src="img/icon_loading_75x75.gif" alt="" />
+</div>
+	
+<diagram pannable contextmenu> 
+	<div class="svg" ng-bind-html="to_trusted(diagram.svg)"></div>
+</diagram>

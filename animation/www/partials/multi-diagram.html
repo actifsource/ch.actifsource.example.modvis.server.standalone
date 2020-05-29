@@ -1,0 +1,55 @@
+
+<bg-splitter orientation="horizontal" splitter-id=2>
+  	
+  	<!-- Main Container -->
+  	<bg-pane min-size="100">
+    	<div class="modvis-main">
+     		<div class="{{routeChangeState}}" ng-show="routeChangeState">
+				<img src="img/icon_loading_75x75.gif" alt="" />
+			</div>
+			<div class="pane-container" ng-controller="DiagramCtrl" ng-init="init()">
+				<div class="pane-container" ng-include="template.mainDiagram"></div>
+			</div>
+		</div>
+    </bg-pane> 	
+    
+    <!-- Diagram Navigation Container -->
+    <bg-pane min-size="150" max-size="500" init-Size-Right="600" change-Listener-Right=true class="pane-container">	
+    	<div class="diagramNavigation">
+    
+    		<div ng-repeat="node in multiDiagram.containedDiagramNodes | orderBy:'sortNumber'" ng-class="getNavigationDiagramSelected(node) ? 'diagramNavigation-diagramSelected' : 'diagramNavigation-diagram'">
+    			<div class="diagramNavigation-label">
+		    		<a href="{{hrefLink(node)}}" class="diagram-link">{{node.label}} </a>
+		        	<a ng-click="popup(node)" href=""><i class="icon-fullscreen"></i></a>
+	        	</div>
+	        	
+	        	<a href="{{hrefLink(node)}}" class="diagram-link">
+	        	
+	        		<div ng-switch="node.skId"> 
+	        	
+	        			<!-- undefined -->
+	        			<div ng-switch-when="undefined">
+					    	<div ng-controller="SimpleDiagramCtrl" ng-init="initWithTreeNumber(node.number)">
+								<diagram> 
+									<div class="svg" ng-bind-html="to_trusted(diagram.svg)"></div>
+								</diagram>
+							</div>
+						</div>	
+						
+						<!-- st defined -->	
+    					<div ng-switch-default>
+							<div ng-controller="DiagramCtrl" ng-init="initWithTreeNumber(node.number)">
+								<diagram animation> 
+									<div class="svg" ng-bind-html="to_trusted(diagram.svg)"></div>
+								</diagram>
+							</div>
+						</div>	
+					
+					</div>	
+					
+				</a>
+    		</div>
+		</div>
+    </bg-pane>
+    
+</bg-splitter>

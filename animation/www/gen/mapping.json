@@ -1,0 +1,29 @@
+{	
+	"mapping_2_1": {
+		"animationStrategie": "implicitdiagramreset",
+		"defaultSt": 0,
+		"groupSt":2, 
+		"map":[
+			{"id":[2, 1, 2], "st":1, "group":1, "guidPath":["guid_4a45b24b51a911e1bd13c3c3662741af"]} ,
+			{"id":[2, 1, 1], "st":0, "group":1, "guidPath":["guid_5b43fa5551a911e1bd13c3c3662741af"]} ,
+			{"id":[2, 1, 3], "st":0, "group":1, "guidPath":["guid_52ecf7bc51a911e1bd13c3c3662741af"]} ,
+			{"id":[2, 1, 4], "st":0, "group":1, "guidPath":["guid_5c458be551a911e1bd13c3c3662741af"]} 
+		]
+	}
+	,
+	"mapping_1_1": {
+		"animationStrategie": "implicitdiagramreset",
+		"defaultSt": 0,
+		"groupSt":2, 
+		"map":[
+			{"id":[1, 1, 2], "st":1, "group":1, "guidPath":["guid_d137e72c51a911e1bd13c3c3662741af"]} ,
+			{"id":[1, 1, 3], "st":0, "group":1, "guidPath":["guid_de4ce63651a911e1bd13c3c3662741af"]} ,
+			{"id":[1, 1, 1], "st":0, "group":1, "guidPath":["guid_df4242c851a911e1bd13c3c3662741af"]} ,
+			{"id":[1, 1, 4], "st":0, "group":1, "guidPath":["guid_d25fec7e51a911e1bd13c3c3662741af"]} ,
+			{"id":[1, 1, 5], "st":0, "group":1, "guidPath":["guid_f42fed7f51a911e1bd13c3c3662741af"]} ,
+			{"id":[1, 1, 6], "st":0, "group":1, "guidPath":["guid_124a3a4551aa11e1bd13c3c3662741af"]} ,
+			{"id":[1, 1, 7], "st":0, "group":1, "guidPath":["guid_247eb86251aa11e1bd13c3c3662741af"]} 
+		]
+	}
+}
+

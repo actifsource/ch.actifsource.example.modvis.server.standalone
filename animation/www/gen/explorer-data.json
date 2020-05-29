@@ -1,0 +1,85 @@
+[
+    {
+        "label": "LampUnit ttt",
+        "children": [
+            {
+                "label": "LampSystem",
+                "st": -2,
+                "children": [
+                    {
+                        "label": "LampCluster",
+                        "children": [
+                            {
+                                "label": "Button",
+                                "children": [
+                                    {
+                                        "label": "normal",
+                                        "children": [
+                                            {
+                                                "label": "Button_normal",
+                                                "extendedLabel": " LampCluster->Button->normal",
+                                                "id": "guid_b64b7592016211e69c5f39755f0f357c",
+                                                "skId": [2,1],
+                                                "diagramType": "multidiagram",
+                                                "links": [
+                                                 ]
+                                            }
+                                            
+                                        ]
+                                    }
+                                    
+                                ]
+                            }
+                            ,
+                            {
+                                "label": "Lamp",
+                                "children": [
+                                    {
+                                        "label": "normal",
+                                        "children": [
+                                            {
+                                                "label": "Lamp_normal",
+                                                "extendedLabel": " LampCluster->Lamp->normal",
+                                                "id": "guid_c1fd3bc1016211e69c5f39755f0f357c",
+                                                "skId": [1,1],
+                                                "diagramType": "multidiagram",
+                                                "links": [
+                                                 ]
+                                            }
+                                            
+                                        ]
+                                    }
+                                    
+                                ]
+                            }
+                            
+                        ]
+                    }
+                    
+                    ,
+                    {
+                        "label": "CommunicationDiagram_1",
+                        "extendedLabel": "LampSystem->CommunicationDiagram_1",
+                        "id": "guid_6ce452df5e5511e2b019bf0c240e82f9",
+                        "diagramType": "simplediagram"
+                    }
+                    
+                ]
+            }
+            
+        ]
+    }
+    
+    ,
+    {
+       "label": "Cip Testsuite",
+       "diagramType": "testsuitediagram"
+    }
+    ,
+    {
+       "label": "Log",
+       "diagramType": "logdiagram"
+    }
+    
+]
+

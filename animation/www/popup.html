@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App" id="App">
+	
+	<head ng-controller="BrowserCtrl">
+		<meta charset=utf-8>
+		<meta http-equiv="cache-control" content="no-cache" />
+  		
+  		<link rel="stylesheet" href="css/bootstrap.min.css">
+  		<link rel="stylesheet" href="css/font-awesome.min.css">
+  		<link rel="stylesheet" href="css/app.css">
+ 		<link rel="stylesheet" href="css/diagram.css">   
+		<link rel="stylesheet" href="css/explorer.css">   
+  		<link rel="stylesheet" href="css/contextmenu.css">   
+  		<link rel="stylesheet" href="css/table.css">  
+  		<link rel="stylesheet" href="css/rzslider.css">  
+  		<link rel="stylesheet" href="css/selecttable.css">
+		<title>{{animation.popup_title}}</title>	
+
+  	</head>
+  	
+	<body>
+
+		<script type="text/javascript" src="js/vendor/angular.js"></script>
+  		<script type="text/javascript" src="js/vendor/angular-animate.min.js"></script>
+  		<script type="text/javascript" src="js/vendor/angular-route.js"></script>
+  		<script type="text/javascript" src="js/vendor/angular-websocket.js"></script>
+  		<script type="text/javascript" src="js/vendor/angular-sanitize.js"></script>
+  		 <script type="text/javascript" src="js/vendor/rzslider.js"></script>
+  		<script src="js/vendor/d3.v3.js"></script>
+  		
+  		<ng-include src="'partials/error-box.html'"></ng-include>
+
+		<div class="modvis-main">
+			<div class="progressBarActive" ng-show="progressBarEnable">
+	    		<div>
+					<span>{{progressBarText}}</span>
+					<progress value="{{progressBarValue}}" max="100"></progress>
+				</div>
+			</div>
+			<div id="view" ng-view></div>
+		</div>
+		
+		<script src="js/api/api.js"></script>
+  		<script src="js/api/error-handler.js"></script>
+  		<script src="js/api/file-handler.js"></script>
+  		<script src="js/api/request-handler.js"></script>
+		
+		<script src="js/util/utility.js"></script>
+  		<script src="js/util/routes.js"></script>
+  		<script src="js/util/assert.js"></script>
+  		
+  		<script src="js/service/modul-context.js"></script> 
+  		<script src="js/service/animation-strategy.js"></script>
+		<script src="js/service/statefullcomponent-service.js"></script>
+  		<script src="js/service/modul-services.js"></script>
+  		<script src="js/service/log-services.js"></script>
+  		<script src="js/service/value-service.js"></script>
+  		<script src="js/service/testsuite-services.js"></script>
+  		
+  		<script src="js/control/diagram-ctrl.js"></script>
+  		<script src="js/control/error-ctrl.js"></script>
+  		<script src="js/control/explorer-ctrl.js"></script>
+  		<script src="js/control/explorer-util.js"></script>
+  		<script src="js/control/log-ctrl.js"></script>
+  		<script src="js/control/action-ctrl.js"></script>
+  		<script src="js/control/value-ctrl.js"></script>
+  		<script src="js/control/browser-ctrl.js"></script>
+  		<script src="js/control/testsuite-ctrl.js"></script>
+  		 
+  		<script src="js/directive/splitter.js"></script>
+  		<script src="js/directive/animation.js"></script>
+  		<script src="js/directive/pannable.js"></script>
+  		<script src="js/directive/contextmenu.js"></script>
+  		
+  		<script src="js/config.js"></script>
+  		<script src="js/app.js"></script>
+		
+	</body>
+</html>

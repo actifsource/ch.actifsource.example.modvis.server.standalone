@@ -1,0 +1,15 @@
+<div id="errorBox" ng-controller="ErrorCtrl" ng-show="hasError">
+	<div class="alert alert-error">
+		<strong>Warnung!</strong> 
+		<span>{{errorMsg}}</span>
+		
+		<span ng-switch="hasRetryStarted" >   
+			<span ng-switch-when="true">
+				<strong> {{linkMsg}} {{retryCont}}</strong>
+			</span>
+			<span ng-switch-default >
+				<span class="btn-link" ng-click="retryFn()">{{linkMsg}}</span>
+			</span>
+		</span>
+	</div>
+</div>

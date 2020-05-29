@@ -1,0 +1,85 @@
+
+<div style="width: 100%; height: 100%; overflow: auto; background-color: #f5f5f5;">
+	<div class="body">
+	
+		<input ng-disabled="testsuite.isExecuting" type="button" id="Button0" value="Reset Animation" ng-click="resetTestbench()"/>
+		
+		<br>
+	    <br>
+		
+	    <table id="{{(testsuite.requiredInputPendingId != null) ? 'select-table-b':'select-table-a'}}">
+        	<tr> 
+        		<th> {{ (testsuite.requiredInputPendingId != null) ? 'Required Input':	'Channel: ' + testsuite.selectedChannelName}} </th> 
+        		<th> {{ (testsuite.requiredInputPendingId != null) ? 'Message'       :	'Message: ' + testsuite.selectedMessageName}} </th> 
+        		<th> Data: {{testsuite.selectedDataName}} </th> 
+        	</tr> 
+            <tr>
+	            <td>
+	                <select ng-show="testsuite.selectedChannel != null" name="channelSelect" id="channelSelect" size=15 ng-model="testsuite.selectedChannel" ng-change="tableChannelChange()">
+	              		<option ng-repeat="option in testsuite.channel" ng-selected="testsuite.selectedChannel == option.id" value="{{option.id}}">{{option.name}}</option>
+	                </select>
+	            </td>
+	            <td>
+	            	<select ng-show="testsuite.selectedMessage != null" name="messageSelect" id="messageSelect" size=15 ng-model="testsuite.selectedMessage" ng-change="tableMessageChange()">
+	              		<option ng-repeat="option in testsuite.message" ng-selected="testsuite.selectedMessage == option.id" value="{{option.id}}">{{option.name}}</option>
+	                </select>
+	            </td>
+	            <td>
+	            	<select ng-show="testsuite.selectedData != null" name="dataSelect" id="dataSelect" size=15 ng-model="testsuite.selectedData" ng-change="tableDataChange()">
+	              		<option ng-repeat="option in testsuite.data" ng-selected="testsuite.selectedData == option.id" value="{{option.id}}">{{option.name}}</option>
+	                </select>
+	            </td>
+        	</tr>
+        	<tr> 	
+        		<td> <div id="select-table-td-div" ng-show="testsuite.testcaseEditMode"> <input ng-disabled="testsuite.isExecuting" type="button" id="Button0" value="{{(testsuite.requiredInputPendingId != null) ? 'Reply Input':'Trigger Message'}}" ng-click="sendTestbenchEvent()"/> <div/></td> 	
+        		<td> </td> 	
+        		<td> <div id="select-table-td-div" ng-show="testsuite.selectedData != null && testsuite.testcaseEditMode">  Data: <input ng-disabled="testsuite.isExecuting" ng-model="testsuite.inputDataValue" ng-change="inputDataValueChange()" type="text" name="fname"> <div/></td> 
+        	</tr>
+	    </table>
+	    
+	    <br>
+	    
+		<div>
+			<table  id="select-table-c">
+				<tr>
+					<td>
+						<input ng-disabled="testsuite.isExecuting" type="button" id="Open" ng-click="toggleConnectTestsuite()" value="{{(testsuite.testsuiteConnected) ? 'Disconnect Testsuite':'Connect Testsuite'}}"/>
+					</td>
+					<td ng-show="testsuite.testsuiteConnected">
+						Select TestCase:
+					</td>
+	            	<td ng-show="testsuite.testsuiteConnected">
+						<select ng-disabled="testsuite.isExecuting" id="testcaseSelect" ng-model="testsuite.selectedTestcase"  ng-change="testcaseChange()">
+							<option ng-repeat="option in testsuite.testcase" ng-selected="testsuite.selectedTestcase == option.id" value="{{option.id}}">{{option.name}}</option>
+	        			</select>
+					</td>
+					<td ng-show="testsuite.testsuiteConnected">
+						<input ng-disabled="testsuite.isExecuting" ng-show="!testsuite.testcaseEditMode" type="button" value="Step" ng-click="step()"/>
+					</td>
+					<td ng-show="testsuite.testsuiteConnected">
+						<input ng-disabled="testsuite.isExecuting" ng-show="!testsuite.testcaseEditMode" type="button" id="Button0" value="Run" ng-click="run()"/>
+					</td>
+					<td ng-show="testsuite.testsuiteConnected">
+						<input ng-disabled="testsuite.isExecuting" type="button" id="Button0" value="{{(testsuite.testcaseEditMode) ? 'Reset Testcase':'Edit Testcase'}}" ng-click="toggleEditMode()"/>
+					</td>
+				</tr>
+			</table>
+		<div/>
+		
+	    <br>
+	    
+		<div>
+			<table id="select-table-a"> 
+				<tr> <th>Output Message Log</th> </tr> 
+				<tr> 	
+					<td>
+						<select size={{testsuite.logOutputMessages.length}} ng-show="testsuite.logOutputMessages.length > 0">
+							<option ng-repeat="option in testsuite.logOutputMessages" value="{{option.id}}">{{option.message}}</option>
+		                </select>
+					</td> 	
+				</tr>
+			</table>
+		<div/>
+	
+	<div/>
+<div/>     

@@ -1,0 +1,17 @@
+<div id="pan-controls">
+	<div id="navigation-controls" ng-show="enableNavigationControl">
+		<a id="nav-left" ng-click="doNavigate('x', 100)"><i class="icon-chevron-left"></i></a>
+		<a id="nav-up" ng-click="doNavigate('y', 100)"><i class="icon-chevron-up"></i></a>
+		<a id="nav-reset" ng-click="doNavigate('reset', 0)"><i class="icon-screenshot"></i></a>
+		<a id="nav-down" ng-click="doNavigate('y', -100)"><i class="icon-chevron-down"></i></a>
+		<a id="nav-right" ng-click="doNavigate('x', -100)"><i class="icon-chevron-right"></i></a>
+	</div>
+	<div id="zoom-controls" ng-show="enableZoomControl">
+	  <div class="btn-group btn-group-vertical">
+	    <button class="btn" ng-click="doZoom('in')" ng-disabled="maxZoomed"><i class="icon-zoom-in"></i></button>
+	    <button class="btn" ng-click="doZoom('reset')"><i class="icon-reply"></i></button>
+	    <button class="btn" ng-click="doZoom('out')" ng-disabled="minZoomed"><i class="icon-zoom-out"></i></button>
+	  </div>
+	</div>
+</div>
+<div class="ng-transclude svg"></div>

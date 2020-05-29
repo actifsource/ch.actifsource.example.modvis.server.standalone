@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Standalone
+Bundle-SymbolicName: ch.actifsource.example.modvis.server.standalone
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: ch.actifsource.example.modvis.server.standalone
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: ch.actifsource.solution.modvis.server.core;bundle-version="10.10.0",
+ ch.actifsource.util;bundle-version="10.10.0",
+ ch.actifsource.libs_external;bundle-version="10.10.0"
