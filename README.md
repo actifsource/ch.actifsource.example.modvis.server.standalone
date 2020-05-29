@@ -1,5 +1,5 @@
 # Modvis Standalone Server
-In this project we will show how to use the modvis server core project.  
+In this project we will show how to use the modvis server core project independent from actifsource.  
 Use your own server and target implementation.  
 ![Core](images/modviscore.png)
 
