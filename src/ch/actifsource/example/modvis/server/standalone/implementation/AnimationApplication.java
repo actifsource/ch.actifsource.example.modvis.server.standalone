@@ -8,6 +8,7 @@ import ch.actifsource.example.modvis.server.standalone.implementation.target.Ani
 import ch.actifsource.solution.modvis.server.core.BaseSimpleServiceBuilder;
 import ch.actifsource.solution.modvis.server.core.IAnimationEnvironment;
 import ch.actifsource.solution.modvis.server.core.IServiceBuilder;
+import ch.actifsource.solution.modvis.server.core.file.BaseFileLocator;
 import ch.actifsource.solution.modvis.server.core.file.IFileLocator;
 import ch.actifsource.solution.modvis.server.core.handler.IErrorHandler;
 import ch.actifsource.solution.modvis.server.core.tcp.ITargetConnection;
@@ -30,7 +31,7 @@ public class AnimationApplication {
   /**
    * Defines the file locator for the animation stand alone application environment. 
    */
-  public static class ApplicationFileLocator implements IFileLocator {
+  public static class ApplicationFileLocator extends BaseFileLocator {
     
     private final String      fRootFolder;
     
